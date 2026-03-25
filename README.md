@@ -47,7 +47,7 @@ Many teams truncate embeddings from 1536-d → 768-d to save storage. TurboQuant
 
 ```bash
 pip install numpy scipy
-git clone https://github.com/YOUR_USERNAME/turbo-quant.git
+git clone https://github.com/Anrahya/turbo-quant.git
 cd turbo-quant
 ```
 
