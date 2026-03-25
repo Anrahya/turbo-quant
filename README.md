@@ -104,7 +104,7 @@ TurboQuant is a 3-step process:
 
 **Why does random rotation help?** It converts any input distribution into a known one (Gaussian), letting us use the same optimal quantizer for all data — no training needed.
 
-For details, see [FINDINGS.md](FINDINGS.md) and the [paper](https://arxiv.org/abs/2504.19874).
+For details, see the [technical deep-dive](docs/HOW_IT_WORKS.md) and the [paper](https://arxiv.org/abs/2504.19874).
 
 ## Project Structure
 
@@ -118,6 +118,10 @@ turbo-quant/
 │   ├── quantizer.py   — TurboQuantMSE + TurboQuantProd (Algorithms 1 & 2)
 │   ├── storage.py     — Bit-packed save/load (.tqdb format)
 │   └── search.py      — Brute-force search + recall@k metrics
+├── docs/
+│   ├── HOW_IT_WORKS.md   — Technical deep-dive (the math explained simply)
+│   ├── USE_CASES.md      — Real-world applications with code examples
+│   └── REPRODUCING.md    — Steps to reproduce our benchmark results
 ├── benchmark.py       — End-to-end benchmark script
 ├── FINDINGS.md        — Infrastructure cost analysis & results
 └── pyproject.toml
