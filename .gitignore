@@ -1,0 +1,36 @@
+# Data files
+*.npy
+*.parquet
+dbpedia_dataset/
+dbpedia_full_1m.npy
+dbpedia_1536.npy
+
+# Cached codebooks (auto-generated)
+turboquant/_codebook_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.venv/
+venv/
+
+# Research paper (not part of the library)
+*.pdf
